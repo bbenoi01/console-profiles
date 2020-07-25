@@ -7,7 +7,9 @@ export default class App extends Component {
     render() {
         return (
             <Router>
-                <Routes/>
+                <div className="app">
+                    <Routes/>
+                </div>
             </Router>
             // <div className='app'>
             //     <section className="valign-wrapper" id='playstation'>

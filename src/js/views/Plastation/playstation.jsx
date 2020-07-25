@@ -8,13 +8,13 @@ export default class ComponentName extends Component {
 
         if(authenticated === false) {
             return (
-                <div id='playstation'>
+                <div>
                     <PSN />
                 </div>
             )
         } else {
             return (
-                <div id='playstation'>
+                <div>
                     <PSLogin />
                 </div>
             );
