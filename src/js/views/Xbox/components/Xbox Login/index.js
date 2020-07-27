@@ -1,3 +1,11 @@
-import XboxLogin from './xblogin'
+import { connect } from 'react-redux';
+import XboxLogin from './xblogin';
 
-export default XboxLogin;
+function mapStoreToProps(store) {
+    return {
+
+    }
+
+}
+
+export default connect(mapStoreToProps)(XboxLogin);

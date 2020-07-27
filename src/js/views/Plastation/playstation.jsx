@@ -4,19 +4,15 @@ import PSN from './components/PSN';
 
 export default class ComponentName extends Component {
     render() {
-        const authenticated = true;
+        const authenticated = false;
 
-        if(authenticated === false) {
+        if(authenticated === true) {
             return (
-                <div>
-                    <PSN />
-                </div>
+                <PSN />
             )
         } else {
             return (
-                <div>
-                    <PSLogin />
-                </div>
+                <PSLogin />
             );
         }
     }

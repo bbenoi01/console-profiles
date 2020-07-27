@@ -1,3 +1,10 @@
+import { connect } from 'react-redux';
 import PSLogin from './pslogin';
 
-export default PSLogin;
+function mapStoreToProps(store) {
+    return {
+
+    }
+}
+
+export default connect(mapStoreToProps)(PSLogin);

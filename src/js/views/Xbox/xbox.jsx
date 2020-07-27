@@ -4,19 +4,15 @@ import XboxLive from './components/Xbox Live';
 
 export default class Xbox extends Component {
     render() {
-        const authenticated = true;
+        const { authenticated } = this.props;
 
         if(authenticated === true) {
             return (
-                <div id='xbox'>
-                    <XboxLive />
-                </div>
+                <XboxLive />
             );
         } else {
             return (
-                <div id='xbox'>
-                    <XboxLogin />
-                </div>
+                <XboxLogin />
             )
         }
     }

@@ -7,27 +7,8 @@ export default class App extends Component {
     render() {
         return (
             <Router>
-                <div className="app">
-                    <Routes/>
-                </div>
+                <Routes/>
             </Router>
-            // <div className='app'>
-            //     <section className="valign-wrapper" id='playstation'>
-            //         <div className="container">
-            //             <div className="row">
-            //                 <Playstation/>
-            //             </div>
-            //         </div>
-            //     </section>
-            //     <hr style={{ margin: '0' }}/>
-            //     <section className="valign-wrapper" id='xbox'>
-            //         <div className="container">
-            //             <div className="row">
-            //                 <Xbox />
-            //             </div>
-            //         </div>
-            //     </section>
-            // </div>
         );
     }
 }
